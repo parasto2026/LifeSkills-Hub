@@ -1,0 +1,1835 @@
+<!-- LifeSkills Hub — Practice Page (cleaned final HTML) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Practice | LifeSkills Hub</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="../variables.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-container">
+
+            <a href="../index.html" class="brand">
+
+                <span class="brand-icon">🌱</span>
+
+                <span>
+                    LifeSkills Hub
+                </span>
+
+            </a>
+
+
+            <nav class="main-navigation">
+
+                <a href="../index.html">
+                    Home
+                </a>
+
+                <a href="skills.html">
+                    Skills
+                </a>
+
+                <a href="resources.html">
+                    Resources
+                </a>
+
+                <a href="practice.html" class="active">
+                    Practice
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="feedback.html">
+                    Feedback
+                </a>
+
+            </nav>
+
+
+            <a href="skills.html" class="header-button">
+                Get Started
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main class="practice-page">
+
+
+        <!-- =================================================
+             1. HERO
+        ================================================== -->
+
+        <section class="practice-hero">
+
+            <div class="practice-hero-container">
+
+
+                <div class="practice-hero-content">
+
+                    <span class="practice-label">
+                        PRACTICE • APPLY • GROW
+                    </span>
+
+
+                    <h1>
+                        Don't just learn life skills.
+                        <span>Use them.</span>
+                    </h1>
+
+
+                    <p>
+                        Choose a skill, take a short challenge, and try it
+                        in your real life. Every practice is designed to
+                        help you turn knowledge into action.
+                    </p>
+
+
+                    <div class="practice-hero-actions">
+
+                        <a
+                            href="#choose-skill"
+                            class="button button-primary"
+                        >
+                            Start a Practice →
+                        </a>
+
+
+                        <button
+                            type="button"
+                            class="practice-surprise-button"
+                            id="hero-surprise-button"
+                        >
+                            🎲 Surprise Me
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="practice-hero-visual">
+
+                    <div class="practice-hero-shape shape-one">
+                        ✦
+                    </div>
+
+                    <div class="practice-hero-shape shape-two">
+                        ★
+                    </div>
+
+                    <div class="practice-hero-shape shape-three">
+                        ✧
+                    </div>
+
+
+                    <div class="practice-hero-main-icon practice-hero-image">
+
+                        <img
+                            src="../images/practice-hero.jpg"
+                            alt="Young adult practicing life skills through study and reflection"
+                        >
+
+                    </div>
+                        
+                    
+                    <div class="practice-hero-mini-card">
+
+                        <span>THINK</span>
+                        <span>TRY</span>
+                        <span>APPLY</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             2. CHOOSE YOUR SKILL
+        ================================================== -->
+
+        <section
+            class="practice-section choose-skill-section"
+            id="choose-skill"
+        >
+
+            <div class="practice-container">
+
+
+                <div class="practice-section-heading">
+
+                    <span class="practice-section-label">
+                        STEP 1
+                    </span>
+
+
+                    <h2>
+                        Choose Your Skill
+                    </h2>
+
+
+                    <p>
+                        What would you like to practice today?
+                    </p>
+
+                </div>
+
+
+                <div class="practice-skill-grid">
+
+
+                    <!-- Communication -->
+
+                    <button
+                        type="button"
+                        class="practice-skill-card communication"
+                        data-skill="communication"
+                    >
+
+                        <span class="practice-skill-icon">
+                            💬
+                        </span>
+
+                        <span class="practice-skill-name">
+                            Communication
+                        </span>
+
+                        <span class="practice-skill-description">
+                            Listen better, speak clearly, and connect
+                            with people.
+                        </span>
+
+                        <span class="practice-skill-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+
+                    <!-- Critical Thinking -->
+
+                    <button
+                        type="button"
+                        class="practice-skill-card critical-thinking"
+                        data-skill="critical-thinking"
+                    >
+
+                        <span class="practice-skill-icon">
+                            🔎
+                        </span>
+
+                        <span class="practice-skill-name">
+                            Critical Thinking
+                        </span>
+
+                        <span class="practice-skill-description">
+                            Question information and think more clearly.
+                        </span>
+
+                        <span class="practice-skill-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+
+                    <!-- Decision Making -->
+
+                    <button
+                        type="button"
+                        class="practice-skill-card decision-making"
+                        data-skill="decision-making"
+                    >
+
+                        <span class="practice-skill-icon">
+                            🧭
+                        </span>
+
+                        <span class="practice-skill-name">
+                            Decision-Making
+                        </span>
+
+                        <span class="practice-skill-description">
+                            Make thoughtful choices when things are
+                            uncertain.
+                        </span>
+
+                        <span class="practice-skill-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+
+                    <!-- Time Management -->
+
+                    <button
+                        type="button"
+                        class="practice-skill-card time-management"
+                        data-skill="time-management"
+                    >
+
+                        <span class="practice-skill-icon">
+                            ⏰
+                        </span>
+
+                        <span class="practice-skill-name">
+                            Time Management
+                        </span>
+
+                        <span class="practice-skill-description">
+                            Focus on what matters and use your time better.
+                        </span>
+
+                        <span class="practice-skill-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+
+                    <!-- Emotional Intelligence -->
+
+                    <button
+                        type="button"
+                        class="practice-skill-card emotional-intelligence"
+                        data-skill="emotional-intelligence"
+                    >
+
+                        <span class="practice-skill-icon">
+                            ❤️
+                        </span>
+
+                        <span class="practice-skill-name">
+                            Emotional Intelligence
+                        </span>
+
+                        <span class="practice-skill-description">
+                            Understand emotions and respond with intention.
+                        </span>
+
+                        <span class="practice-skill-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             3. CHOOSE TIME
+        ================================================== -->
+
+        <section class="practice-section practice-settings-section">
+
+            <div class="practice-container">
+
+
+                <div class="practice-section-heading">
+
+                    <span class="practice-section-label">
+                        STEP 2
+                    </span>
+
+
+                    <h2>
+                        How Much Time Do You Have?
+                    </h2>
+
+
+                    <p>
+                        Choose the amount of time you have right now.
+                        We'll give you a practice that fits.
+                    </p>
+
+                </div>
+
+
+                <div class="practice-settings-grid">
+
+
+                    <button
+                        type="button"
+                        class="practice-setting-card selected"
+                        data-time="60"
+                    >
+
+                        <span class="setting-icon">
+                            ⚡
+                        </span>
+
+                        <strong>
+                            60 Seconds
+                        </strong>
+
+                        <span>
+                            Quick practice
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="practice-setting-card"
+                        data-time="5"
+                    >
+
+                        <span class="setting-icon">
+                            🌿
+                        </span>
+
+                        <strong>
+                            5 Minutes
+                        </strong>
+
+                        <span>
+                            A little deeper
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="practice-setting-card"
+                        data-time="10"
+                    >
+
+                        <span class="setting-icon">
+                            🧠
+                        </span>
+
+                        <strong>
+                            10 Minutes
+                        </strong>
+
+                        <span>
+                            Deeper challenge
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="practice-setting-card"
+                        data-time="real-life"
+                    >
+
+                        <span class="setting-icon">
+                            🌎
+                        </span>
+
+                        <strong>
+                            Real Life
+                        </strong>
+
+                        <span>
+                            Take it outside
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             4. TODAY'S CHALLENGE
+        ================================================== -->
+
+        <section
+            class="practice-section todays-challenge-section"
+            id="todays-challenge"
+        >
+
+            <div class="practice-container">
+
+
+                <div class="practice-section-heading">
+
+                    <span class="practice-section-label">
+                        YOUR NEXT STEP
+                    </span>
+
+
+                    <h2>
+                        Today's Challenge
+                    </h2>
+
+
+                    <p>
+                        You don't need to be perfect. You just need
+                        to try one useful thing.
+                    </p>
+
+                </div>
+
+
+                <article class="challenge-card">
+
+
+                    <div class="challenge-card-top">
+
+                        <span class="challenge-skill-tag">
+                            💬 Communication
+                        </span>
+
+
+                        <span class="challenge-time">
+                            ⏱️ 60 seconds
+                        </span>
+
+                    </div>
+
+
+                    <div class="challenge-content">
+
+                        <span class="challenge-number">
+                            CHALLENGE 01
+                        </span>
+
+
+                        <h3>
+                            Pause → Listen → Ask
+                        </h3>
+
+
+                        <p class="challenge-question">
+                            The next time someone is talking to you,
+                            can you listen without preparing your reply?
+                        </p>
+
+
+                        <!-- THINK -->
+
+                        <div class="challenge-step think-step">
+
+                            <span class="challenge-step-label">
+                                💭 THINK
+                            </span>
+
+
+                            <p>
+                                What usually happens when you are already
+                                preparing your answer while someone else
+                                is still speaking?
+                            </p>
+
+                        </div>
+
+
+                        <!-- TRY -->
+
+                        <div class="challenge-step try-step">
+
+                            <span class="challenge-step-label">
+                                🎯 TRY
+                            </span>
+
+
+                            <p>
+                                Let the person finish speaking.
+                                Then ask one genuine follow-up question
+                                about what they said.
+                            </p>
+
+                        </div>
+
+
+                        <!-- APPLY -->
+
+                        <div class="challenge-step apply-step">
+
+                            <span class="challenge-step-label">
+                                🌎 APPLY
+                            </span>
+
+
+                            <p>
+                                Try this with one person today.
+                                It could be a friend, family member,
+                                coworker, customer, or anyone you talk to.
+                            </p>
+
+                        </div>
+
+
+                        <!-- DONE -->
+
+                        <div class="challenge-actions">
+
+                            <button
+                                type="button"
+                                class="button button-primary challenge-done-button"
+                                id="challenge-done"
+                            >
+                                ✓ I Did It
+                            </button>
+
+
+                            <button
+                                type="button"
+                                class="challenge-change-button"
+                                id="change-challenge"
+                            >
+                                ↻ Give Me Another
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="challenge-decoration">
+                        ✦
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             5. SURPRISE ME
+        ================================================== -->
+
+        <section class="practice-section surprise-section">
+
+            <div class="practice-container">
+
+
+                <div class="surprise-card">
+
+                    <div class="surprise-icon">
+                        🎲
+                    </div>
+
+
+                    <div class="surprise-content">
+
+                        <span class="practice-section-label">
+                            FEELING CURIOUS?
+                        </span>
+
+
+                        <h2>
+                            Surprise Me
+                        </h2>
+
+
+                        <p>
+                            Let LifeSkills Hub choose a challenge for you.
+                            You might discover a skill you didn't plan
+                            to practice today.
+                        </p>
+
+
+                        <button
+                            type="button"
+                            class="button button-primary"
+                            id="surprise-button"
+                        >
+                            🎲 Surprise Me
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             6. LEVEL 1 — 60 SECOND PRACTICES
+        ================================================== -->
+
+        <section class="practice-section level-one-section">
+
+            <div class="practice-container">
+
+
+                <div class="level-heading">
+
+                    <span class="level-number">
+                        LEVEL 1
+                    </span>
+
+
+                    <div>
+
+                        <h2>
+                            60-Second Practices
+                        </h2>
+
+
+                        <p>
+                            Tiny actions you can complete almost anywhere.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="mini-practice-grid">
+
+
+                    <article class="mini-practice-card communication">
+
+                        <span class="mini-practice-icon">
+                            💬
+                        </span>
+
+
+                        <h3>
+                            Ask One More Question
+                        </h3>
+
+
+                        <p>
+                            Instead of ending a conversation quickly,
+                            ask one thoughtful follow-up question.
+                        </p>
+
+
+                        <button
+                            type="button"
+                            class="mini-practice-start"
+                            data-challenge="communication-follow-up"
+                        >
+                            Try It →
+                        </button>
+
+                    </article>
+
+
+                    <article class="mini-practice-card critical-thinking">
+
+                        <span class="mini-practice-icon">
+                            🔎
+                        </span>
+
+
+                        <h3>
+                            How Do I Know?
+                        </h3>
+
+
+                        <p>
+                            When you hear a claim, pause and ask:
+                            what evidence supports it?
+                        </p>
+
+
+                        <button
+                            type="button"
+                            class="mini-practice-start"
+                            data-challenge="critical-evidence"
+                        >
+                            Try It →
+                        </button>
+
+                    </article>
+
+
+                    <article class="mini-practice-card decision-making">
+
+                        <span class="mini-practice-icon">
+                            🧭
+                        </span>
+
+
+                        <h3>
+                            Find Three Options
+                        </h3>
+
+
+                        <p>
+                            Before making an important choice,
+                            create three realistic options.
+                        </p>
+
+
+                        <button
+                            type="button"
+                            class="mini-practice-start"
+                            data-challenge="decision-options"
+                        >
+                            Try It →
+                        </button>
+
+                    </article>
+
+
+                    <article class="mini-practice-card time-management">
+
+                        <span class="mini-practice-icon">
+                            ⏰
+                        </span>
+
+
+                        <h3>
+                            The Next One
+                        </h3>
+
+
+                        <p>
+                            Choose your next important task and
+                            work on it for just ten minutes.
+                        </p>
+
+
+                        <button
+                            type="button"
+                            class="mini-practice-start"
+                            data-challenge="time-next"
+                        >
+                            Try It →
+                        </button>
+
+                    </article>
+
+
+                    <article class="mini-practice-card emotional-intelligence">
+
+                        <span class="mini-practice-icon">
+                            ❤️
+                        </span>
+
+
+                        <h3>
+                            Name It Before You Act
+                        </h3>
+
+
+                        <p>
+                            Before reacting, identify what you are
+                            feeling and what triggered it.
+                        </p>
+
+
+                        <button
+                            type="button"
+                            class="mini-practice-start"
+                            data-challenge="emotion-name"
+                        >
+                            Try It →
+                        </button>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             7. LEVEL 2 — WHAT WOULD YOU DO?
+        ================================================== -->
+
+        <section class="practice-section level-two-section">
+
+            <div class="practice-container">
+
+
+                <div class="level-heading">
+
+                    <span class="level-number">
+                        LEVEL 2
+                    </span>
+
+
+                    <div>
+
+                        <h2>
+                            What Would You Do?
+                        </h2>
+
+
+                        <p>
+                            Realistic situations. Think about what
+                            would work best.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <article class="scenario-card">
+
+
+                    <div class="scenario-header">
+
+                        <span class="scenario-skill">
+                            💬 COMMUNICATION
+                        </span>
+
+
+                        <span class="scenario-progress">
+                            1 / 5
+                        </span>
+
+                    </div>
+
+
+                    <div class="scenario-body">
+
+                        <span class="scenario-label">
+                            REAL-LIFE SITUATION
+                        </span>
+
+
+                        <h3>
+                            Someone keeps interrupting you.
+                            What would you do?
+                        </h3>
+
+
+                        <p>
+                            You're explaining something important,
+                            but the other person keeps speaking before
+                            you finish.
+                        </p>
+
+
+                        <div class="scenario-options">
+
+                            <button
+                                type="button"
+                                data-option="A"
+                            >
+                                <span>A</span>
+
+                                <span class="scenario-option-text">
+                                    Interrupt them back.
+                                </span>
+                            </button>
+
+
+                            <button
+                                type="button"
+                                data-option="B"
+                            >
+                                <span>B</span>
+
+                                <span class="scenario-option-text">
+                                    Stay silent and say nothing.
+                                </span>
+                            </button>
+
+
+                            <button
+                                type="button"
+                                data-option="C"
+                            >
+                                <span>C</span>
+
+                                <span class="scenario-option-text">
+                                    Calmly say that you'd like to finish
+                                    your thought first.
+                                </span>
+                            </button>
+
+
+                            <button
+                                type="button"
+                                data-option="D"
+                            >
+                                <span>D</span>
+
+                                <span class="scenario-option-text">
+                                    Leave the conversation immediately.
+                                </span>
+                            </button>
+
+                        </div>
+
+
+                        <p
+                            class="scenario-feedback"
+                            id="scenario-feedback"
+                        ></p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             8. LEVEL 3 — SPOT THE PROBLEM
+        ================================================== -->
+
+        <section class="practice-section level-three-section">
+
+            <div class="practice-container">
+
+
+                <div class="level-heading">
+
+                    <span class="level-number">
+                        LEVEL 3
+                    </span>
+
+
+                    <div>
+
+                        <h2>
+                            Spot the Problem
+                        </h2>
+
+
+                        <p>
+                            Learn to notice hidden problems before
+                            they become bigger ones.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <article class="spot-problem-card">
+
+
+                    <div class="spot-problem-visual">
+                        🔍
+                    </div>
+
+
+                    <div class="spot-problem-content">
+
+                        <span class="practice-section-label">
+                            LOOK CLOSER
+                        </span>
+
+
+                        <h3 id="spot-problem-title">
+                            What's wrong with this situation?
+                        </h3>
+
+
+                        <p id="spot-problem-text">
+                            You receive a message saying:
+                            "Everyone knows this is true, so you should
+                            believe it too."
+                        </p>
+
+
+                        <div class="spot-problem-actions">
+
+                            <button
+                                type="button"
+                                class="button button-secondary"
+                                id="spot-problem-answer"
+                            >
+                                Reveal the problem
+                            </button>
+
+
+                            <button
+                                type="button"
+                                class="button button-primary"
+                                id="spot-problem-next"
+                            >
+                                Next Problem →
+                            </button>
+
+                        </div>
+
+
+                        <p
+                            class="spot-problem-feedback"
+                            id="spot-problem-feedback"
+                        ></p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             9. LEVEL 4 — DECISION LAB
+        ================================================== -->
+
+        <section class="practice-section level-four-section">
+
+            <div class="practice-container">
+
+
+                <div class="level-heading">
+
+                    <span class="level-number">
+                        LEVEL 4
+                    </span>
+
+
+                    <div>
+
+                        <h2>
+                            Decision Lab
+                        </h2>
+
+
+                        <p>
+                            Slow down and work through situations
+                            where the answer isn't obvious.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <article class="decision-lab-card">
+
+
+                    <div class="decision-lab-header">
+
+                        <span>
+                            🧪 DECISION LAB
+                        </span>
+
+
+                        <span>
+                            DEEPER PRACTICE
+                        </span>
+
+                    </div>
+
+
+                    <div class="decision-lab-content">
+
+                        <h3 id="decision-lab-title">
+                            You have three important things to do,
+                            but only enough time for one.
+                        </h3>
+
+
+                        <p id="decision-lab-question">
+                            How would you decide which one deserves
+                            your attention first?
+                        </p>
+
+
+                        <div class="decision-lab-steps">
+
+                            <div class="decision-lab-step">
+
+                                <span>1</span>
+
+                                <p id="decision-lab-step-1">
+                                    Consider what is most important.
+                                </p>
+
+                            </div>
+
+
+                            <div class="decision-lab-step">
+
+                                <span>2</span>
+
+                                <p id="decision-lab-step-2">
+                                    Consider what is most urgent.
+                                </p>
+
+                            </div>
+
+
+                            <div class="decision-lab-step">
+
+                                <span>3</span>
+
+                                <p id="decision-lab-step-3">
+                                    Choose the option with the strongest reason.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="button button-primary"
+                            id="decision-lab-button"
+                        >
+                            Reveal My Approach →
+                        </button>
+
+
+                        <p
+                            class="decision-lab-feedback"
+                            id="decision-lab-feedback"
+                        ></p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             10. LEVEL 5 — REAL LIFE MISSIONS
+        ================================================== -->
+
+        <section class="practice-section missions-section">
+
+            <div class="practice-container">
+
+
+                <div class="level-heading">
+
+                    <span class="level-number">
+                        LEVEL 5
+                    </span>
+
+
+                    <div>
+
+                        <h2>
+                            Real-Life Missions
+                        </h2>
+
+
+                        <p>
+                            Take what you've practiced and use it
+                            somewhere in your real day.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <article class="mission-card">
+
+
+                    <div class="mission-icon">
+                        🌎
+                    </div>
+
+
+                    <div class="mission-content">
+
+                        <span class="practice-section-label">
+                            TODAY'S MISSION
+                        </span>
+
+
+                        <h3 id="mission-title">
+                            Have one conversation where you truly listen.
+                        </h3>
+
+
+                        <p id="mission-description">
+                            Choose one person today. Put your phone away,
+                            listen until they finish, and ask one question
+                            that shows you were paying attention.
+                        </p>
+
+
+                        <div class="mission-checklist">
+
+                            <label>
+
+                                <input
+                                    type="checkbox"
+                                    id="mission-check-1"
+                                >
+
+                                <span id="mission-check-text-1">
+                                    I chose someone.
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input
+                                    type="checkbox"
+                                    id="mission-check-2"
+                                >
+
+                                <span id="mission-check-text-2">
+                                    I listened without interrupting.
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input
+                                    type="checkbox"
+                                    id="mission-check-3"
+                                >
+
+                                <span id="mission-check-text-3">
+                                    I asked a thoughtful question.
+                                </span>
+
+                            </label>
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="button button-primary"
+                            id="mission-complete"
+                        >
+                            Complete Mission →
+                        </button>
+
+
+                        <p
+                            class="mission-feedback"
+                            id="mission-feedback"
+                        ></p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             11. LEVEL 6 — 7 DAY CHALLENGES
+        ================================================== -->
+
+        <section class="practice-section seven-day-section">
+
+            <div class="practice-container">
+
+
+                <div class="level-heading">
+
+                    <span class="level-number">
+                        LEVEL 6
+                    </span>
+
+
+                    <div>
+
+                        <h2>
+                            7-Day Challenges
+                        </h2>
+
+
+                        <p>
+                            One small action each day.
+                            Build the habit by practicing in real situations.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <article class="seven-day-card">
+
+
+                    <div class="seven-day-top">
+
+                        <span class="seven-day-icon">
+                            📅
+                        </span>
+
+
+                        <div>
+
+                            <h3>
+                                7 Days of Better Listening
+                            </h3>
+
+
+                            <p>
+                                One communication practice each day.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="seven-day-progress">
+
+                        <span class="day completed">
+                            1
+                        </span>
+
+                        <span class="day">
+                            2
+                        </span>
+
+                        <span class="day">
+                            3
+                        </span>
+
+                        <span class="day">
+                            4
+                        </span>
+
+                        <span class="day">
+                            5
+                        </span>
+
+                        <span class="day">
+                            6
+                        </span>
+
+                        <span class="day">
+                            7
+                        </span>
+
+                    </div>
+
+
+                    <p class="seven-day-message">
+                        You don't need seven perfect days.
+                        Just keep coming back.
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="button button-primary"
+                    >
+                        Start 7-Day Challenge →
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             12. REFLECTION
+        ================================================== -->
+
+        <section class="practice-section reflection-section">
+
+            <div class="practice-container">
+
+
+                <div class="reflection-card">
+
+
+                    <div class="reflection-icon">
+                        💭
+                    </div>
+
+
+                    <div class="reflection-content">
+
+                        <span class="practice-section-label">
+                            PAUSE & NOTICE
+                        </span>
+
+
+                        <h2>
+                            What happened when you tried it?
+                        </h2>
+
+
+                        <p>
+                            Reflection helps you notice what worked,
+                            what didn't, and what you might try next.
+                        </p>
+
+
+                        <div class="reflection-questions">
+
+
+                            <div>
+
+                                <label for="reflection-noticed">
+                                    What did you notice?
+                                </label>
+
+
+                                <textarea
+                                    id="reflection-noticed"
+                                    placeholder="Write a few words..."
+                                ></textarea>
+
+                            </div>
+
+
+                            <div>
+
+                                <label for="reflection-next">
+                                    What would you do differently next time?
+                                </label>
+
+
+                                <textarea
+                                    id="reflection-next"
+                                    placeholder="Write a few words..."
+                                ></textarea>
+
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="button button-primary"
+                        >
+                            Save Reflection
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             13. HURRAA CELEBRATION
+        ================================================== -->
+
+        <section
+            class="practice-celebration"
+            id="practice-celebration"
+            aria-hidden="true"
+        >
+
+            <div class="celebration-sparkles">
+                ✦ ✧ ★ ✦ ✧ ★ ✦
+            </div>
+
+
+            <div class="celebration-card">
+
+                <div class="celebration-icon">
+                    🎉
+                </div>
+
+
+                <span class="celebration-small">
+                    YOU DID IT!
+                </span>
+
+
+                <h2>
+                    HURRAA!
+                </h2>
+
+
+                <p>
+                    You didn't just learn a skill.
+                    You practiced it.
+                </p>
+
+
+                <strong class="celebration-xp">
+                    +10 XP
+                </strong>
+
+
+                <button
+                    type="button"
+                    class="button button-primary"
+                    id="celebration-continue"
+                >
+                    Keep Practicing →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             14. PROGRESS
+        ================================================== -->
+
+        <section class="practice-section progress-section">
+
+            <div class="practice-container">
+
+
+                <div class="practice-section-heading">
+
+                    <span class="practice-section-label">
+                        YOUR PROGRESS
+                    </span>
+
+
+                    <h2>
+                        Keep Growing
+                    </h2>
+
+
+                    <p>
+                        Your progress is about showing up and practicing,
+                        not being perfect.
+                    </p>
+
+                </div>
+
+
+                <div class="progress-grid">
+
+
+                    <div class="progress-card">
+
+                        <span class="progress-icon">
+                            ⭐
+                        </span>
+
+
+                        <strong id="xp-count">
+                            0
+                        </strong>
+
+
+                        <small>
+                            XP Earned
+                        </small>
+
+                    </div>
+
+
+                    <div class="progress-card">
+
+                        <span class="progress-icon">
+                            🎯
+                        </span>
+
+
+                        <strong id="completed-count">
+                            0
+                        </strong>
+
+
+                        <small>
+                            Practices Completed
+                        </small>
+
+                    </div>
+
+
+                    <div class="progress-card">
+
+                        <span class="progress-icon">
+                            🏆
+                        </span>
+
+
+                        <strong id="achievement-count">
+                            0
+                        </strong>
+
+
+                        <small>
+                            Achievements
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <p class="local-progress-note">
+                    🔒 Your practice progress is saved on this browser.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             15. FINAL CTA
+        ================================================== -->
+
+        <section class="practice-final-cta">
+
+            <div class="practice-container">
+
+
+                <div class="practice-final-card">
+
+                    <span class="practice-final-icon">
+                        🌱
+                    </span>
+
+
+                    <h2>
+                        One small practice can change
+                        how you handle your next situation.
+                    </h2>
+
+
+                    <p>
+                        Don't wait until you're perfect.
+                        Choose one skill and try it today.
+                    </p>
+
+
+                    <a
+                        href="#choose-skill"
+                        class="button button-primary"
+                    >
+                        Start Another Practice →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <span>🌱</span>
+
+                <strong>
+                    LifeSkills Hub
+                </strong>
+
+                <p>
+                    Small steps today, better life tomorrow.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="../index.html">
+                    Home
+                </a>
+
+                <a href="skills.html">
+                    Skills
+                </a>
+
+                <a href="resources.html">
+                    Resources
+                </a>
+
+                <a href="practice.html">
+                    Practice
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="feedback.html">
+                    Feedback
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                 2026 LifeSkills Hub. Built as a learning project.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Existing website JavaScript -->
+    
+    <script src="../practice.js?v=4"></script>
+
+</body>
+</html>

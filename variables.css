@@ -1,0 +1,32 @@
+/* =========================================================
+   LIFE SKILLS HUB
+   GLOBAL DESIGN VARIABLES
+========================================================= */
+
+:root {
+
+    /* ---------- MAIN COLORS ---------- */
+
+    --background: #fff8ee;
+    --surface: #fffdf8;
+
+    --navy: #172943;
+    --text: #29313d;
+    --text-light: #5f6670;
+
+
+    /* ---------- SKILL COLORS ---------- */
+
+    --communication: #a8c98b;
+    --critical-thinking: #9dbfe5;
+    --decision-making: #f2b56f;
+    --time-management: #c6a5d9;
+    --emotional-intelligence: #ed9b9b;
+
+
+    /* ---------- BRAND COLORS ---------- */
+
+    --primary: #ef625d;
+    --primary-dark: #d94c48;
+
+}
